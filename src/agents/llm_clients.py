@@ -40,7 +40,7 @@ def gemini_generate_text(
         config=types.GenerateContentConfig(
             system_instruction=system_prompt,
             temperature=temperature,
-            max_output_tokens=300,  
+            max_output_tokens=500,  
         ),
         contents=user_prompt,
     )
